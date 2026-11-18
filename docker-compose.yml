@@ -1,0 +1,16 @@
+services:
+  dashboard:
+    build: .
+    command: streamlit run dashboard/app.py --server.address=0.0.0.0
+    ports:
+      - "8501:8501"
+    volumes:
+      - ./dataset:/app/dataset
+      - ./reports:/app/reports
+  api:
+    build: .
+    command: python api/main.py
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./dataset:/app/dataset
