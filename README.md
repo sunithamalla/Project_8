@@ -63,3 +63,8 @@ Running `python -m src.analysis` creates CSV summaries and PNG charts in `report
 - Replace rule-based categories with a validated taxonomy or supervised classifier.
 - Use more months/years of data and time-based backtesting before forecasting.
 - Add authentication, request validation, logging, and production WSGI serving before public deployment.
+Outpus :
+---------
+- <img width="1600" height="673" alt="WhatsApp Image 2026-11-18 at 11 42 04 AM" src="https://github.com/user-attachments/assets/dec0f1aa-bceb-4f27-8bd8-790ed7317fde" />
+-<img width="1600" height="488" alt="WhatsApp Image 2026-11-18 at 11 48 03 AM" src="https://github.com/user-attachments/assets/67ba9666-9724-4dd4-a9e1-05eb4c299eb3" />
+
